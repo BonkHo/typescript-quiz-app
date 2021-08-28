@@ -15,7 +15,7 @@ export const GlobalStyle = createGlobalStyle`
         /* background-image: url(${BGImage}); */
         background-size: cover;
         margin: 0;
-        padding: 0 20px;
+        padding: 0;
         display: flex;
         justify-content: center;
     }
@@ -27,17 +27,17 @@ export const Wrapper = styled.div`
     align-items: center;
 
     > p {
-        color: #fff;
+        color: black;
     }
 
     .score {
-        color: #fff;
+        color: black;
         font-size: 2rem;
-        margin: 0;
+        margin: 1em;
     }
 
     .h1 {
-        color: #fff;
+        color: black;
         font-family: "Noto Sans JP", sans-serif;
         -moz-text-fill-color: transparent;
         font-size: 70px;
@@ -57,6 +57,6 @@ export const Wrapper = styled.div`
     }
 
     .start {
-        max-width
+        max-width: 200px;
     }
 `;
