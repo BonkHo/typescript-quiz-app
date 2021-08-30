@@ -2,11 +2,10 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
     max-width: 1100px;
-    background: lightblue;
     border-radius: 10px;
     border: 2px solid black;
     padding: 20px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    background-color: #fffffa;
     text-align: center;
 
     p {
@@ -36,8 +35,8 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
                 ? "linear-gradient(90deg, #56ffa4, #59bc86)"
                 : !correct && userClicked
                 ? "linear-gradient(90deg, #ff5656, #c16868)"
-                : "linear-gradient(90deg, #56ccff, #6eafb4)"};
-        border: 3px solid #fff;
+                : "linear-gradient(90deg, #f5f7d5, #e9ee93)"};
+        border: 2px solid #5f5f5d;
         box-shadow: 1px 2px 0px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);

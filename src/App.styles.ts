@@ -22,6 +22,7 @@ export const GlobalStyle = createGlobalStyle`
 `;
 
 export const Wrapper = styled.div`
+    padding-top: 4em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -33,7 +34,7 @@ export const Wrapper = styled.div`
     .score {
         color: black;
         font-size: 2rem;
-        margin: 1em;
+        padding-bottom: 1em;
     }
 
     .h1 {
@@ -48,8 +49,8 @@ export const Wrapper = styled.div`
     .start,
     .next {
         cursor: pointer;
-        background: linear-gradient(180deg, #fff, #00ffb3);
-        border: 2px solid black;
+        background: linear-gradient(180deg, #ddfcad, #c8e087);
+        border: 2px solid #131312;
         box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
         border-radius: 10px;
         height: 35px;
